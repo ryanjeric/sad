@@ -1,0 +1,47 @@
+.sad{
+    color:black;
+    background-color:currentColor;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:200px;
+    border: solid 1px currentColor;
+    border-radius: 50%;
+}
+.sad:before{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    right: 190px;
+    top:100px;
+    border-radius: 50%;
+}
+.sad:after {
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    top:100px;
+    border-radius: 50%;
+}
+.sad i {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: white;
+    border-bottom: solid 3px currentColor;
+    border-top: solid 3px currentColor;
+    border-left: solid 3px transparent;
+    border-right: solid 3px transparent;
+  }
+  
